@@ -187,12 +187,12 @@ Some of the most important engineering problems addressed in this project were:
 
 ![ESP32 Serial Connection](esp32.jpeg)
 ![Sensor Setup](fsr_sensor.jpeg)
-
+![Sock Detection](sock_detection_tracking.png)
+![Map Saved](slam_map.png)
 ## Videos
 
 > Add GitHub-hosted videos, linked files, or external demo links here.
 
-- [Sock Detection Demo](sock_detection_demo)
 - [Pickup Attempt Demo](pickup_demo)](https://youtube.com/shorts/iOYxxX4nNP8?feature=share)
 - [Handoff Demo](handoff_demo)
 
