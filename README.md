@@ -179,8 +179,6 @@ Some of the most important engineering problems addressed in this project were:
 
 ---
 
-## Demo Media
-
 ## Photos
 
 >
