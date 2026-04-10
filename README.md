@@ -1,4 +1,4 @@
-# Yahboom Sock-Handling Robot
+# Sock-Handling Robot
 
 An autonomous mobile robotics project built on the **Yahboom M3Pro** platform with a robotic arm, computer vision, and ROS 2. The goal of this project is to enable the robot to **search for socks, approach them, grasp them from the floor, and hand them off to a person**, while coordinating navigation, perception, arm control, and sensor feedback in a full end-to-end workflow.
 
