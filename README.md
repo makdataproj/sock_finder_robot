@@ -185,9 +185,8 @@ Some of the most important engineering problems addressed in this project were:
 
 > Add build photos, arm close-ups, sensor wiring images, and screenshots here.
 
-![Robot Overview](images/robot_overview.jpg)
-![Arm and Gripper](images/arm_gripper.jpg)
-![Sensor Setup](images/fsr_sensor_setup.jpg)
+![ESP32 Serial Connection](esp32.jpeg)
+![Sensor Setup](fsr_sensor.jpeg)
 
 ## Videos
 
