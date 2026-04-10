@@ -192,9 +192,9 @@ Some of the most important engineering problems addressed in this project were:
 
 > Add GitHub-hosted videos, linked files, or external demo links here.
 
-- [Sock Detection Demo](videos/sock_detection_demo.mp4)
-- [Pickup Attempt Demo](videos/pickup_demo.mp4)
-- [Handoff Demo](videos/handoff_demo.mp4)
+- [Sock Detection Demo](sock_detection_demo)
+- [Pickup Attempt Demo](pickup_demo)](https://youtube.com/shorts/iOYxxX4nNP8?feature=share)
+- [Handoff Demo](handoff_demo)
 
 ---
 
