@@ -183,15 +183,17 @@ Some of the most important engineering problems addressed in this project were:
 
 ## Photos
 
-> Add build photos, arm close-ups, sensor wiring images, and screenshots here.
+>
 
 ![ESP32 Serial Connection](esp32.jpeg)
 ![Sensor Setup](fsr_sensor.jpeg)
 ![Sock Detection](sock_detection_tracking.png)
 ![Map Saved](slam_map.png)
+
+
 ## Videos
 
-> Add GitHub-hosted videos, linked files, or external demo links here.
+> 
 
 - [Pickup Attempt Demo](pickup_demo)](https://youtube.com/shorts/iOYxxX4nNP8?feature=share)
 - [Handoff Demo](handoff_demo)
@@ -228,13 +230,13 @@ Planned next steps include:
 
 This project demonstrates an applied robotics system that combines:
 
-- **Computer vision**
+- **computer vision**
 - **robot arm control**
 - **sensor feedback**
 - **mobile navigation**
 - **behavior coordination**
 
-Rather than solving only one robotics subproblem, the work focuses on building a robot that can perform a meaningful real-world task from start to finish: **find a sock, pick it up, and bring it to a person**.
+Rather than solving only one subproblem, the work focuses on building a robot that can perform a meaningful real-world task from start to finish: **find a sock, pick it up, and bring it to a person**.
 
 ---
 
