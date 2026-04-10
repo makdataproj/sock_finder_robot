@@ -246,6 +246,4 @@ Rather than solving only one robotics subproblem, the work focuses on building a
 ├── launch/
 ├── models/
 ├── images/
-├── videos/
-├── docs/
 └── README.md
