@@ -1,10 +1,4 @@
-cat <<EOF > .gitignore
-# Models / binaries
-*.engine
-*.pt
-*.pth
-*.onnx
-*.t7
+.gitignore
 Log/
 # Python wheels
 *.whl
