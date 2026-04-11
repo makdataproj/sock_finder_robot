@@ -1,6 +1,6 @@
 # Sock-Handling Robot
 
-An autonomous mobile robotics project built on the **Yahboom M3Pro** platform with a robotic arm, computer vision, and ROS 2. The goal of this project is to enable the robot to **search for socks, approach them, grasp them from the floor, and hand them off to a person**, while coordinating navigation, perception, arm control, and sensor feedback in a full end-to-end workflow.
+An autonomous mobile robotics project built on the **Yahboom M3Pro** platform with a 6DoF robotic arm, Orbbec DABAI DCW2 binocular structured light depth camera, Orin Nano, ESP32 and ROS 2. The goal of this project is to enable the robot to **search for socks, approach them, grasp them from the floor, and hand them off to a person**, while coordinating navigation, perception, arm control, and sensor feedback in a full end-to-end workflow. (Note: Some files such as the URDF, Offsets and PID have been given by the Yahboom team which helped with development)
 
 ---
 
@@ -57,6 +57,7 @@ To make pickup possible, I added logic so the robot could not only detect a sock
 
 Key work included:
 
+- Training a 15000 sock segementation image data set with yolo26 with split 80/20 training and test, augmented the dataset using openCV to match the same blur, HSV and lighting variations from frames collected using rosbag and quantized the model
 - Tracking the best sock target
 - Computing a target centroid / grasp point
 - Keeping the target in the camera view during approach
@@ -98,7 +99,7 @@ I added a force sensor workflow so the robot could determine whether it **actual
 
 This work included:
 
-- Wiring and testing an **FSR402 force sensor**
+- Wiring and testing an **FSR402 force sensor** to the gripper
 - Connecting the sensor through an ESP32
 - Monitoring live sensor readings over serial
 - Publishing force data into ROS 2
@@ -183,17 +184,17 @@ Some of the most important engineering problems addressed in this project were:
 
 >
 
-![ESP32 Serial Connection](esp32.jpeg)
-![Sensor Setup](fsr_sensor.jpeg)
-![Sock Detection](sock_detection_tracking.png)
-![Map Saved](slam_map.png)
+![ESP32 Serial Connection](images/esp32.jpeg)
+![Sensor Setup](images/fsr_sensor.jpeg)
+![Sock Detection](images/sock_detection_tracking.png)
+![Map Saved](images/slam_map.png)
 
 
 ## Videos
 
 > 
 
-- [Pickup Attempt Demo](pickup_demo)](https://youtube.com/shorts/iOYxxX4nNP8?feature=share)
+- [Pickup Attempt Demo](pickup_demo)(https://youtube.com/shorts/iOYxxX4nNP8?feature=share)
 - [Handoff Demo](handoff_demo)
 
 ---
@@ -221,6 +222,7 @@ Planned next steps include:
 - Expanding handoff robustness with better person-following logic
 - Refining patrol and search coverage in larger mapped spaces
 - Continuing to optimize onboard inference performance
+- Instead of running multiple shell scripts in tmux, use a proper launch script
 
 ---
 

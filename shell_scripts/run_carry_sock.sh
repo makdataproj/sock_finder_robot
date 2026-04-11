@@ -1,0 +1,1 @@
+ros2 run yahboom_sock_finder carry_sock_to_person_node

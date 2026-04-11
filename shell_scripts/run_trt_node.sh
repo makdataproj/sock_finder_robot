@@ -1,0 +1,1 @@
+ros2 run yahboom_sock_finder combined_trt_node

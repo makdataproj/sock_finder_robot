@@ -1,0 +1,5 @@
+ /usr/src/tensorrt/bin/trtexec \
+  --onnx=/home/jetson/models/sock_best.onnx \
+  --saveEngine=/home/jetson/models/yolo26l_640_b1_fp16.engine \
+  --fp16 \
+  --memPoolSize=workspace:4096

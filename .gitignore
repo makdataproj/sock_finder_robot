@@ -1,0 +1,25 @@
+cat <<EOF > .gitignore
+# Models / binaries
+*.engine
+*.pt
+*.pth
+*.onnx
+*.t7
+Log/
+# Python wheels
+*.whl
+
+# Large datasets
+*.dat
+*.mp4
+*.bag
+
+# ROS build stuff
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+EOF
